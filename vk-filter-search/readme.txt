@@ -5,7 +5,7 @@ Tags: Guternberg, Search
 Requires at least: 6.4
 Tested up to: 6.7
 Requires PHP: 7.4
-Stable tag: 2.14.1.0
+Stable tag: 2.15.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -94,6 +94,13 @@ More languages will be added in the future. If you would like to help with trans
 4. Search Results page
 
 == Changelog ==
+
+= 2.15.0 =
+[ Specification Change ][ VK Filter Search ( Pro ) / Call Filter Search ] Disable submit button on editing screen.
+[ Specification Change ][ VK Keyword Search ] Enable AND search even when keywords are separated by full-width spaces.
+[ Specification Change ][ Search Title ] Change the editor component from Button Group to Toggle Group Control.
+[ Other ][ Compatibility with 6.8 ] Updated to handle the deprecation of __experimentalBoxControl and use OldBoxControl or NewBoxControl accordingly.
+[ Bug Fix ][ VK Taxonomy Search Pro ] Fix the console error on the edit screen
 
 = 2.14.1 =
 [ Bug Fix ][ Call Filter Search ] Fixed an error when entering additional CSS classes.
