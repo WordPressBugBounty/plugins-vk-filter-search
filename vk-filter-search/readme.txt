@@ -2,10 +2,10 @@
 Contributors: vektor-inc,kurudrive,rickaddison7634,naoki0h,mimitips,una9,sysbird,chiakikouno,mtdkei
 Donate link:
 Tags: Guternberg, Search
-Requires at least: 6.5
-Tested up to: 6.8
+Requires at least: 6.4
+Tested up to: 6.7
 Requires PHP: 7.4
-Stable tag: 2.15.1.1
+Stable tag: 2.15.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -94,10 +94,6 @@ More languages will be added in the future. If you would like to help with trans
 4. Search Results page
 
 == Changelog ==
-
-= 2.15.1 =
-[ Bug Fix ] Fix XSS ( Restrict tags that can be used in the label input field ).
-[ Bug Fix ] Fixed an issue where using Japanese characters in custom color names in block themes caused class names to break and the colors not to apply.
 
 = 2.15.0 =
 [ Specification Change ][ VK Filter Search ( Pro ) / Call Filter Search ] Disable submit button on editing screen.
