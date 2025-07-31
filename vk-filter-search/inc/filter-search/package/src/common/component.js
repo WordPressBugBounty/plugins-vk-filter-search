@@ -5,9 +5,11 @@
 /* eslint camelcase: 0 */
 /* eslint no-shadow: 0 */
 
+import { kebabCase } from 'lodash';
 import { CheckboxControl } from '@wordpress/components';
 import { useState } from '@wordpress/element';
 import { select } from '@wordpress/data';
+import DOMPurify from 'dompurify';
 
 // @wordpress/block-editor から必要なものをインポート
 import {
@@ -126,4 +128,16 @@ export const AdvancedColorPalette = ( props ) => {
 export const isBlockDuplicate = ( blockName, clientId ) => {
 	const blockids = select( 'core/block-editor' ).getBlocksByName( blockName );
 	return blockids[ 0 ] !== clientId;
+};
+
+export const sanitizeSlug = ( slug ) => {
+	return kebabCase( slug );
+};
+
+export const sanitizeIconHTML = ( html ) => {
+	// Remove all tags except <i> and </i>
+	return DOMPurify.sanitize( html, {
+		ALLOWED_TAGS: [ 'span', 'i', 'br' ],
+		ALLOWED_ATTR: [ 'class', 'style' ],
+	} );
 };

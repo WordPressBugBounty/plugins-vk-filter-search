@@ -2,10 +2,10 @@
 Contributors: vektor-inc,kurudrive,rickaddison7634,naoki0h,mimitips,una9,sysbird,chiakikouno,mtdkei
 Donate link:
 Tags: Guternberg, Search
-Requires at least: 6.4
-Tested up to: 6.7
+Requires at least: 6.5
+Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 2.15.0.3
+Stable tag: 2.17.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -15,8 +15,6 @@ This plugin allows you to add a search function as a block to narrow down your s
 This is the Filter & Search plugin for WordPress compatible with Gutenberg Block Editor.
 This plugin makes it easy to put search box anywhere on your WordPress website.
 If you have custom post type, you can also narrow down the search by custom post types.
-
-[youtube https://youtu.be/PbtQB58CPYM]
 
 = Add Filter Function =
 Site visitors can search your posts by filtered category, tag, custom post type, keyword, etc.
@@ -94,6 +92,18 @@ More languages will be added in the future. If you would like to help with trans
 4. Search Results page
 
 == Changelog ==
+
+= 2.17.0 =
+[ Specification Change ] The <br> tag is also allowed in the label input field.
+[ Specification Change ] add .vkfs__label-name-inner tag.
+
+= 2.16.0 =
+[ Add Setting ] add Accordion Setting
+[ Other ] Only <i> and <span> tags are allowed in the label input field, with id, class, and style attributes permitted.
+
+= 2.15.1 =
+[ Bug Fix ] Fix XSS ( Restrict tags that can be used in the label input field ).
+[ Bug Fix ] Fixed an issue where using Japanese characters in custom color names in block themes caused class names to break and the colors not to apply.
 
 = 2.15.0 =
 [ Specification Change ][ VK Filter Search ( Pro ) / Call Filter Search ] Disable submit button on editing screen.
