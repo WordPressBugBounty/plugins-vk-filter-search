@@ -2,10 +2,10 @@
 Contributors: vektor-inc,kurudrive,rickaddison7634,naoki0h,mimitips,una9,sysbird,chiakikouno,mtdkei
 Donate link:
 Tags: Guternberg, Search
-Requires at least: 6.5
-Tested up to: 6.8
+Requires at least: 6.6
+Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 2.17.0.0
+Stable tag: 2.18.3.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -92,6 +92,21 @@ More languages will be added in the future. If you would like to help with trans
 4. Search Results page
 
 == Changelog ==
+
+= 2.18.3 =
+[ Add Function ][ Search Result Title / Search Result Count ] Correspond to the specified static page in the search results.
+
+= 2.18.2 =
+[ Other ] Update the Search Results Page Setting Guide.
+
+= 2.18.1 =
+[ Other ] Update the Search Results Page Setting Guide.
+
+= 2.18.0 =
+[ Add Function ] Added the ability to set a fixed page as the search results page from VK Filter Search settings.
+
+= 2.17.1 =
+[ Bug Fix ][ VK Filter Search Pro / VK Taxonomy Search Pro ] Fix accordion and collapse bug.
 
 = 2.17.0 =
 [ Specification Change ] The <br> tag is also allowed in the label input field.
